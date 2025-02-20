@@ -1,0 +1,203 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1827 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"49 C:\Users\luca.camillini\Desktop\5C06\P41_servo_step_by_step.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"64 C:\Users\luca.camillini\Desktop\5C06\P41_servo_step_by_step.X\mcc_generated_files/epwm1.c
+[v _EPWM1_Initialize EPWM1_Initialize `(v  1 e 1 0 ]
+"90
+[v _EPWM1_LoadDutyValue EPWM1_LoadDutyValue `(v  1 e 1 0 ]
+"50 C:\Users\luca.camillini\Desktop\5C06\P41_servo_step_by_step.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"70
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\luca.camillini\Desktop\5C06\P41_servo_step_by_step.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"62 C:\Users\luca.camillini\Desktop\5C06\P41_servo_step_by_step.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+[s S178 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"447 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1827.h
+[u S187 . 1 `S178 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES187  1 e 1 @12 ]
+[s S199 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"509
+[u S208 . 1 `S199 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES208  1 e 1 @13 ]
+[s S24 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"571
+[u S33 . 1 `S24 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES33  1 e 1 @17 ]
+"942
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"962
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"982
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+[s S46 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+"1003
+[s S54 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+[u S58 . 1 `S46 1 . 1 0 `S54 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES58  1 e 1 @28 ]
+"1153
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1215
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+[s S252 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1479
+[s S261 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S266 . 1 `S252 1 . 1 0 `S261 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES266  1 e 1 @149 ]
+"1590
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1649
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1707
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2040
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2097
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"2431
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"2780
+[v _APFCON0 APFCON0 `VEuc  1 e 1 @285 ]
+"2842
+[v _APFCON1 APFCON1 `VEuc  1 e 1 @286 ]
+"2862
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2914
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3488
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3517
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"4594
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @657 ]
+"4614
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @658 ]
+"4634
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @659 ]
+"4716
+[v _PWM1CON PWM1CON `VEuc  1 e 1 @660 ]
+"4791
+[v _ECCP1AS ECCP1AS `VEuc  1 e 1 @661 ]
+"4948
+[v _PSTR1CON PSTR1CON `VEuc  1 e 1 @662 ]
+[s S106 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 C2TSEL0 1 0 :1:2 
+`uc 1 C2TSEL1 1 0 :1:3 
+`uc 1 C3TSEL0 1 0 :1:4 
+`uc 1 C3TSEL1 1 0 :1:5 
+`uc 1 C4TSEL0 1 0 :1:6 
+`uc 1 C4TSEL1 1 0 :1:7 
+]
+"5506
+[s S115 . 1 `uc 1 C1TSEL 1 0 :2:0 
+`uc 1 C2TSEL 1 0 :2:2 
+`uc 1 C3TSEL 1 0 :2:4 
+`uc 1 C4TSEL 1 0 :2:6 
+]
+[u S120 . 1 `S106 1 . 1 0 `S115 1 . 1 0 ]
+[v _CCPTMRS0bits CCPTMRS0bits `VES120  1 e 1 @670 ]
+"49 C:\Users\luca.camillini\Desktop\5C06\P41_servo_step_by_step.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"55
+[v main@duty duty `i  1 a 2 5 ]
+"68
+} 0
+"50 C:\Users\luca.camillini\Desktop\5C06\P41_servo_step_by_step.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"70
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"62 C:\Users\luca.camillini\Desktop\5C06\P41_servo_step_by_step.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"55 C:\Users\luca.camillini\Desktop\5C06\P41_servo_step_by_step.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"60 C:\Users\luca.camillini\Desktop\5C06\P41_servo_step_by_step.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"68
+} 0
+"64 C:\Users\luca.camillini\Desktop\5C06\P41_servo_step_by_step.X\mcc_generated_files/epwm1.c
+[v _EPWM1_Initialize EPWM1_Initialize `(v  1 e 1 0 ]
+{
+"88
+} 0
+"90
+[v _EPWM1_LoadDutyValue EPWM1_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v EPWM1_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
+"97
+} 0

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\P22_timer0_3giochi_3pulsanti_bis.X.production.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>4096</length>
+      <used>654</used>
+      <free>3442</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>384</length>
+      <used>28</used>
+      <free>356</free>
+    </memory>
+  </executable>
+</project>
